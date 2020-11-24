@@ -1,6 +1,6 @@
 # Requisitando dados de uma API de cryptomoedas
 
-O projeto consiste em uma página que consome dados da API de Cryptomoedas da CoinMarketCap. Possui uma tabela que mostra 20 cryptomoedas fornecidas pela API, a tabela pode ser ordenada de forma crescente ou decrescente.
+O projeto consiste em uma página que consome dados da **API de Cryptomoedas da CoinMarketCap**. Possui uma tabela limitada a 20 cryptomoedas, a tabela pode ser ordenada de forma crescente ou decrescente.
 
 #### Como foi desenvolvida
 1. Foi utilizada a **Fetch API**, uma ferramenta disponibilizada pelo próprio JavaScript, para manipular requisões **HTTP**. Essa funcionabilidade fornece o método global **fetch()**, que de maneira fácil e lógica permite buscar recursos de forma **assincrona**.
