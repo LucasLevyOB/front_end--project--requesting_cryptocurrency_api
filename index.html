@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CoinMarketCap: Requisitando dados de uma API de Cryptomoedas</title>
+        <!-- css -->
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+      <h1 class="width-100 text-center">Principais Cryptomoedas</h1>
+      <p class="p-1">Tabela com as principais cryptomoedas do mundo. A tabela pode ser ordenada de forma crescente ou decrescente.</p>
+      <div class="table-responsive">
+        <table id="datatable" class="table table-hover">
+          <thead>
+            <tr id="datatable-thead">
+              <th value="0" order="true" title="Ordenar por Id" scope="col">Id</th>
+              <th value="1" order="true" title="Ordenar por Nome" scope="col">Nome</th>
+              <th value="2" order="true" title="Ordenar por Simbolo" scope="col">Simbolo</th>
+              <th value="3" order="true" title="Ordenar por Slug" scope="col">Slug</th>
+              <th value="4" order="true" title="Ordenar por Posição" scope="col">Posição</th>
+              <th value="5" order="true" title="Ordenar por Data" scope="col">Primeira Aparição</th>
+            </tr>
+          </thead>
+          <tbody id='datatable-tbody'>
+          </tbody>
+        </table>
+      </div>
+      <!-- js -->
+      <script type="module" src="./js/main.js"></script>
+      <script type="module" src="./js/getApi.js"></script>
+    </body>
+</html>

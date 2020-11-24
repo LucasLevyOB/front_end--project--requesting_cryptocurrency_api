@@ -1,0 +1,6 @@
+#datatable-thead > th:hover {
+    background-color: rgba(220, 220, 220, 1);
+}
+#datatable-thead > th {
+    cursor: pointer;
+}
